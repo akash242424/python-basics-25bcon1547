@@ -23,7 +23,7 @@
 | **6** | Added palindrome check using python string slicing. | `feat: implement palindrome string slicing` | AI is clearer. "Implement" is a stronger imperative verb than "Added," and it omits the redundant word "python." |
 
 ## 3. Partner Review Notes
-**Reviewed by:** Jainam
+**Reviewed by:** Akash
 
 *   **factorial.py:** The reverse loop logic works well. Adding a quick inline comment explaining that `-1` is the step parameter in `range(n, 0, -1)` would make it instantly clear to beginners.
 *   **fibonacci.py:** Great use of tuple unpacking (`a, b = b, a + b`)! One small fix: add an empty `print()` at the very end of the script so the final tabbed output doesn't bleed into the terminal prompt.
